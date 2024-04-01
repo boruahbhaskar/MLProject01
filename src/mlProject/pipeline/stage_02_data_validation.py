@@ -2,6 +2,7 @@ from mlProject.config.configuration import ConfigurationManager
 from mlProject.components.data_validation import DataValiadtion
 from mlProject import logger
 
+
 STAGE_NAME = "Data Validation stage"
 
 class DataValidationTrainingPipeline:
@@ -27,3 +28,4 @@ if __name__ == '__main__':
     except Exception as e:
         logger.exception(e)
         raise e
+    
