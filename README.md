@@ -66,20 +66,22 @@ open up you local host and port
 ### dagshub
 [dagshub](https://dagshub.com/)
 
-MLFLOW_TRACKING_URI=https://dagshub.com/someshnaman/End_to_end_MLOPS_project.mlflow \
-MLFLOW_TRACKING_USERNAME=someshnaman \
-MLFLOW_TRACKING_PASSWORD=6e7e6b4e21fb207c4cbf0d4d7f20506e23e748cc \
+
+
+MLFLOW_TRACKING_URI=https://dagshub.com/boruahbhaskar/MLProject01.mlflow \
+MLFLOW_TRACKING_USERNAME=boruahbhaskar \
+MLFLOW_TRACKING_PASSWORD=2ee6b3fb1dff13fbcadc2d0593ead335dc06aeaf \
 python script.py
 
 Run this to export as env variables:
 
 ```bash
 
-export MLFLOW_TRACKING_URI=https://dagshub.com/someshnaman/End_to_end_MLOPS_project.mlflow
+export MLFLOW_TRACKING_URI=https://dagshub.com/boruahbhaskar/MLProject01.mlflow
 
-export MLFLOW_TRACKING_USERNAME=someshnaman 
+export MLFLOW_TRACKING_USERNAME=boruahbhaskar 
 
-export MLFLOW_TRACKING_PASSWORD=6e7e6b4e21fb207c4cbf0d4d7f20506e23e748cc
+export MLFLOW_TRACKING_PASSWORD=2ee6b3fb1dff13fbcadc2d0593ead335dc06aeaf
 
 ```
 # AWS-CICD-Deployment-with-Github-Actions
